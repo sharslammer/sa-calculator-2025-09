@@ -5,6 +5,7 @@ calc_functions = {
 
 try:
     calc_functions['+'] = calculator.sum
+    print('sum loaded')
 except AttributeError:
     print('sum was not loaded')
 try:
